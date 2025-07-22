@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background: #FADCD9;
+  font-family: 'Gilroy', 'Segoe UI', Arial, sans-serif;
+}
+
+.intro-frame {
+  width: 565px;
+  height: 479px;
+  margin: 40px auto;
+  background: #FADCD9;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.flower-icon {
+  position: absolute;
+  top: 34px;
+  right: 24px;
+  width: 119px;
+  height: 119px;
+  z-index: 2;
+}
+
+.intro-title {
+  font-size: 56px;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+  position: absolute;
+  left: 24px;
+  top: 225px;
+  width: 475px;
+  height: 168px;
+  line-height: 1em;
+  display: flex;
+  align-items: flex-start;
+}
